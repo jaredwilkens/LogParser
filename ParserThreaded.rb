@@ -2,11 +2,11 @@ require 'json/streamer'
 require 'thread'
 
 =begin
-I originaly thought that using some threads would improve the perfomance of this program. 
-However, I failed to realize that the program is in fact cpu bound when I orignally thought it was IO bound 
-Since normal ruby (Matz's Ruby) is not truly multi-thread you get no perfromance improvment
+I originally thought that using some threads would improve the performance of this program. 
+However, I failed to realize that the program is in fact cpu bound when I originally thought it was IO bound 
+Since normal ruby (Matz's Ruby) is not truly multi-thread you get no performance improvement
 I thought I would just leave this in here so we can talk about it if we want
-You would have to of course write some aggreation function to print everything our coherently
+You would have to of course write some aggregation function to print everything our coherently
 =end
 
 class ParserThreaded
