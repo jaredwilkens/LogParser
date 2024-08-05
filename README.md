@@ -4,11 +4,11 @@ $ gem install json-streamer
 ```
 Then you can just open an irb session loading this file by running
 ```
-'$ irb -r ./Parser.rb'
+$ irb -r ./Parser.rb
 ```
 Then all you need to do is create a new parser object 
 ```
-'irb(main):001> p = Parser.new()'
+irb(main):001> p = Parser.new()
 ```
 
 Instructions
